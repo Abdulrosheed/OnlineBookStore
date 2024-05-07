@@ -1,0 +1,28 @@
+# Bookstore Application
+
+## Overview
+
+The Bookstore Application is a .NET-based application that enables users to manage books and sales data. It leverages PostgreSQL for data storage and utilizes the Bogus library to generate fake data for testing purposes.
+
+## Requirements
+
+- .NET SDK 8.0 or higher
+- PostgreSQL database 11 or higher
+
+## Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your/repository.git
+2. **Update database connection string:**
+    Update the database connection string in appsettings.json with your PostgreSQL credentials.
+3. **Run the following command to update the database with the migration file:**
+    dotnet ef database update
+4. **To start the application, use the following command:**
+    dotnet run
+5. **Upon running the application, fake data will be generated to populate the database.**
+
+
+
+
+
