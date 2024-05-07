@@ -13,7 +13,7 @@ The Bookstore Application is a .NET-based application that enables users to mana
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your/repository.git
+   git clone https://github.com/Abdulrosheed/OnlineBookStore
 2. **Update database connection string:**
     Update the database connection string in appsettings.json with your PostgreSQL credentials.
 3. **Run the following command to update the database with the migration file:**
